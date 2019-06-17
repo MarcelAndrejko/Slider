@@ -1,0 +1,44 @@
+.ndSlider {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    padding: 56.25% 0 0 0; /* 16:9 */
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.ndSlider > .ndSlider-Item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #000000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ndSlider > .ndSlider-Navigation {
+    position: absolute;
+    padding: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2em;
+    line-height: 2em;
+    border-radius: 1em 1em 0 0;
+    text-align: center;
+    z-index: 100;
+    white-space: nowrap;
+}
+
+.ndSlider > .ndSlider-Navigation > span {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin: 0.5em;
+    border-radius: 50%;
+    background-color: #cb0000;
+}
